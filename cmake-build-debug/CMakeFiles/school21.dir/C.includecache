@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Dev/school21/test.c
+errno.h
+-
+string.h
+-
+unistd.h
+-
+netdb.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+stdio.h
+-
+stdlib.h
+-
+
